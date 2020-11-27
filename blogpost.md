@@ -1,9 +1,11 @@
-# :christmas_tree: Optional Functor from scratch! Kodskolan winter camp writeup :christmas_tree:
+# Optional Functor from scratch!
+## :christmas_tree:Kodskolan winter hack camp writeup:christmas_tree:
 
-:mask:
+:mask:  Please!! :mask:
+
 Ever wondered what a Functor is? Are your Optionals not Monads yet? Haven't used the tie-fighter?
 
-Hey, lets do this!	:dark_sunglasses:
+Hey, lets do this!:dark_sunglasses:
 
 ## We want Optionals!
 First of we need a "type" of `Optional`. This is the "wrapper" the "Context" the "Event" talked about in all `Functor` tutorials. We use some god old type declarations in Haskell.
@@ -23,7 +25,7 @@ optional3 = None
 ```
 In the world of fancy words we do not have much. If you are reading the entertaining blog posts about `Functors` what we have here is just our own `FA` wrapper type.
 
-## We want functors!
+## We want functors!:alien:	
 Well we have all heard about the functor laws, right? Well lets ignore them. A `Functor` for us should just be able to do two things.
 
 * Take all elements from any type `A` and wrap it in a type `FA`.
